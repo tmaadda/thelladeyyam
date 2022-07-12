@@ -405,6 +405,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('➕ You can add out bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ],[
+             InlineKeyboardButton('How To Use our Botr', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/TMAMovies'),
