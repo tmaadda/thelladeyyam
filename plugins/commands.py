@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ You can add out bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
