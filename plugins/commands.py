@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
-        ].[
+        ],[
             InlineKeyboardButton('👤 Owner', url='https://telegram.me/tmasupport')
             
         ]]
