@@ -44,6 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ You can add out bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
+            InlineKeyboardButton('How To Use our Botr', url='https://telegram.me/how_to_use_tmafilesbot/2')
+        ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
@@ -93,6 +95,8 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('➕ You can add out bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ],[
+             InlineKeyboardButton('How To Use our Botr', url='https://telegram.me/how_to_use_tmafilesbot/2')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
