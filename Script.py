@@ -7,7 +7,8 @@ class script(object):
 ✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/TMAMovies>TMA Movies</a>
 ✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- 𝐓𝐌𝐀 𝐂𝐥𝐨𝐮𝐝
 ✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- 𝐓𝐌𝐀 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
-✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟑.𝟎"""
+✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟒.𝟏.𝟑
+"""
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
 - Get Access - https://telegram.me/TMADiscuss  
