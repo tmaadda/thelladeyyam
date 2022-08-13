@@ -415,7 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('👤 Owner', url='https://telegram.me/tmasupport')
+            InlineKeyboardButton('💲 Donate us', url='https://t.me/how_to_use_tmafilesbot/3')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
