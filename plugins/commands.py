@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies')
+                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -53,7 +53,7 @@ async def start(client, message):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('💲 Donate us', url='https://t.me/how_to_use_tmafilesbot/3')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 Join Updates Channel", url='https://rigipay.com/g/ocU5Sv5Zgo' #invite_link.invite_link
                 )
             ]
         ]
@@ -99,13 +99,13 @@ async def start(client, message):
              InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('💲 Donate us', url='https://t.me/how_to_use_tmafilesbot/3')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
