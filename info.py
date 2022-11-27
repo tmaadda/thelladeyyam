@@ -32,19 +32,19 @@ AUTH_CHANNEL = "-1001742515179"
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = "mongodb+srv://tmaadda:tmaadda@cluster0.8vqs89z.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_URI = 'ongodb+srv://tmaadda:tmaadda@cluster0.8vqs89z.mongodb.net/?retryWrites=true&w=majorit'
 DATABASE_NAME = 'Tmamoviesbottt'
 COLLECTION_NAME = 'Telegram_files'
 
 # Others
-LOG_CHANNEL = "-1001694472922"
+LOG_CHANNEL = '-1001694472922'
 SUPPORT_CHAT = 'TMADISCUSS'
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = '<b>{file_caption} \n Size :- <i>{file_size}</i> \n \n Join [TMAAdda](https://telegram.me/tmaadda)</b> '
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = "Hey {message.from_user.mention}, \n Here is the result for your {query}  \n <b>🏷 Title</b>: <a href={url}>{title}</a>  \n 📆 Year: <a href={url}/releaseinfo>{year}</a>  \n 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.) \n ☀️ Languages : <code>{languages}</code> \n 📀 RunTime: {runtime} Minutes \n 📆 Release Info : {release_date} \n 🎛 Countries : <code>{countries}</code> \n Requested by : {message.from_user.mention}  \n Powered By @TMAAdda"
+IMDB_TEMPLATE = 'Hey {message.from_user.mention}, \n Here is the result for your {query}  \n <b>🏷 Title</b>: <a href={url}>{title}</a>  \n 📆 Year: <a href={url}/releaseinfo>{year}</a>  \n 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.) \n ☀️ Languages : <code>{languages}</code> \n 📀 RunTime: {runtime} Minutes \n 📆 Release Info : {release_date} \n 🎛 Countries : <code>{countries}</code> \n Requested by : {message.from_user.mention}  \n Powered By @TMAAdda'
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -53,7 +53,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-UPSTREAM_REPO = "https://github.com/prajith2252/tmafilesbot"
+UPSTREAM_REPO = 'https://github.com/prajith2252/tmafilesbot'
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
