@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url='https://rigipay.com/g/ocU5Sv5Zgo' #invite_link.invite_link
+                    "💲 Get Access", url='https://rigipay.com/g/ocU5Sv5Zgo' #invite_link.invite_link
                 )
             ]
         ]
