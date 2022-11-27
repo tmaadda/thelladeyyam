@@ -415,7 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ],[
-            InlineKeyboardButton('💲 Donate us', url='https://t.me/how_to_use_tmafilesbot/3')
+            InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
