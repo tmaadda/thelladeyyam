@@ -32,7 +32,7 @@ AUTH_CHANNEL = "-1001742515179"
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = 'ongodb+srv://tmaadda:tmaadda@cluster0.8vqs89z.mongodb.net/?retryWrites=true&w=majorit'
+DATABASE_URI = 'mongodb+srv://tmaadda:tmaadda@cluster0.8vqs89z.mongodb.net/?retryWrites=true&w=majorit'
 DATABASE_NAME = 'Tmamoviesbottt'
 COLLECTION_NAME = 'Telegram_files'
 
