@@ -45,11 +45,11 @@ async def start(client, message):
             [
             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
-            ],
-            [
+            ],[
+                InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
+            ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
             
         ]]
