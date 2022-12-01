@@ -41,18 +41,15 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
-            InlineKeyboardButton('➕ You can add our bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
+        buttons = [
+            [
             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
-            ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-        ],[
+            ],
+            [
             InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
             
         ]]
@@ -93,18 +90,15 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
-            InlineKeyboardButton('➕ You can add our bot to your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ],[
+        buttons = [
+            [
              InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-        ],[
+                InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
+            ],[
             InlineKeyboardButton('💲 Get Premium Access', url='https://rigipay.com/g/ocU5Sv5Zgo')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
