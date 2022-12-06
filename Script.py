@@ -4,14 +4,14 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/TMAAdda>TMA Adda</a>
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Helpline_4u>TMA Adda</a>
 ✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- 𝐓𝐌𝐀 𝐂𝐥𝐨𝐮𝐝
 ✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- 𝐓𝐌𝐀 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
 ✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟒.𝟏.𝟑
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
-- Get Access - https://telegram.me/TMADiscuss  
+- Get Access - https://telegram.me/Helpline_4u 
 
 <b>DEVS:</b>
 - <a href=https://t.me/TMAAdda>Team @TMAAdda</a>"""
@@ -96,7 +96,7 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
-★ Powered BY @TMAAdda"""
+★ Powered BY @Movies_arena_4u"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
