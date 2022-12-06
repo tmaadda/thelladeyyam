@@ -31,7 +31,7 @@ AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-100160196145
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://NP:NP@cluster0.igza7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0)
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001592680189'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Helpline_4u')
