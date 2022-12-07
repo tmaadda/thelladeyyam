@@ -10,31 +10,31 @@ def is_enabled(value, default):
         return default
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = 18729425 #int(environ['API_ID'],5540967)
-API_HASH = 'a1ba6712731b122ca1f8f08a4e1b9cb7'#(environ['API_HASH'],'eedf0196b0533f361b51b5b7082358e9')
-BOT_TOKEN = '2042868396:AAFMK6bKJ8YcEzfMpeY_88LyocikMI4cmIw' #(environ['BOT_TOKEN'],'1877486792:AAGr4aoWtD_31Qh9GGnMnV2kUNYPqSxQSkY')
+API_ID = 8497750 #int(environ['API_ID'],5540967)
+API_HASH = '91ed92493d470bc610781f12e74a8b0a'#(environ['API_HASH'],'eedf0196b0533f361b51b5b7082358e9')
+BOT_TOKEN = '5086970136:AAFI8gE6FAedvmitIujk86LwXpTy2wlRDDU' #(environ['BOT_TOKEN'],'1877486792:AAGr4aoWtD_31Qh9GGnMnV2kUNYPqSxQSkY')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/b27df166d116499e3cbcf.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/Dom-12-06-10')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2068711372').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', "-1001274297517 -1001479888204 -1001374485034 -1001532145811").split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '904059063').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', "-1001739510487").split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL','movies_seriesupdates')
+auth_channel = environ.get('AUTH_CHANNEL','-1001336715249')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-1001601961451").split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Anubisop17:Anubis@721@cluster0.nihfh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dom:dom@cluster1.lw0gyvi.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001592680189'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Helpline_4u')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001794031076'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'nenmemeravtha_discussion')
 
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>{file_caption} \n Size :- <i>{file_size}</i> \n Join [KUMBHIPAAKAM](https://telegram.me/MOVIES_SERIESUPDATES)</b> ")
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
