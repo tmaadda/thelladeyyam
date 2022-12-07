@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Movies_Arena_4u')
+                InlineKeyboardButton('🤖 Channel', url='https://telegram.me/nenmemeravthaa')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,12 +45,12 @@ async def start(client, message):
             [
             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Movies_Arena_4u'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/nenmemeravthaa'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/keanureeevsbot')
+            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/tmafilesbot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -94,12 +94,12 @@ async def start(client, message):
             [
              InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
             ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/Movies_Arena_4u'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/helpline_4u')
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/nenmemeravthaa'),
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/keanureeevsbot')
+            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/tmafilesbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
