@@ -30,8 +30,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-1001601961451").split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dom:dom@cluster1.lw0gyvi.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Manohartech:Manohartech@cluster0.lwo8q.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Manohartech")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001794031076'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'nenmemeravtha_discussion')
