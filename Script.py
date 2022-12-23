@@ -4,17 +4,17 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Helpline_4u>TMA Adda</a>
-✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- 𝐓𝐌𝐀 𝐂𝐥𝐨𝐮𝐝
-✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- 𝐓𝐌𝐀 𝐒𝐞𝐫𝐯𝐞𝐫𝐬
-✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- 𝐕 𝟒.𝟏.𝟑
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/Nenmemeravtha_bot>NMA</a>
+✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- NMA CLOUD
+✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- TB Servers
+✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- Ivannie Nik Deniki Ra
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
-- Get Access - https://telegram.me/Helpline_4u 
+- Get Access - https://telegram.me/Nenmemeravtha_bot
 
 <b>DEVS:</b>
-- <a href=https://t.me/TMAAdda>Team @TMAAdda</a>"""
+- <a href=https://t.me/NMA>Team @Nenmemeravtha_bot</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and our bot will respond whenever a keyword is found the message
@@ -39,7 +39,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://telegram.me/TMAFilesBot)</code>
+<code>[Button Text](buttonurl:https://telegram.me/Nenmemeravtha_bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -96,7 +96,7 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
-★ Powered BY @Movies_arena_4u"""
+★ Powered BY @Nenmemeravtha_bot"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
