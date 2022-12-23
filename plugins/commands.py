@@ -43,14 +43,14 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+            InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/nenmemeravthaa')
         ],[
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/nenmemeravthaa'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/nenmemeravthaa')
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/tmafilesbot')
+            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/DominicToretto1_bot')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,14 +92,14 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
+             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/nenmemeravthaa')
             ],[
             InlineKeyboardButton('🤖 Channel', url='https://telegram.me/nenmemeravthaa'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
+            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/nenmemeravthaa')
             ],[
                 InlineKeyboardButton('🔍 Search Movies Here', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/tmafilesbot')
+            InlineKeyboardButton('💲 Donate us', url='https://telegram.me/DominicToretto1_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
